@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './src/main.js', // main/root file
+    entry: ['@babel/polyfill','./src/main.js'], // main/root file
     output: { // output file
         path: __dirname + '/public', // __dirname: current location, similar to 'pwd' command line
         filename: 'bundle.js',
